@@ -78,7 +78,7 @@ const InvoiceForm = ({ state }) => {
 
     // invoice data fetching 
     const [date, setDate] = useState(new Date().toISOString().split('T')[0]);
-    const [documentNumber, setDocumentNumber] = useState('');
+    // const [documentNumber, setDocumentNumber] = useState('');
     const [providerName, setProviderName] = useState('');
     const [providerEmail, setProviderEmail] = useState('');
     const [receiverName, setReceiverName] = useState('');
@@ -226,7 +226,7 @@ const InvoiceForm = ({ state }) => {
                                 </div>
                                 <div>
                                     <label style={{ width: '120px' }}>Document No:</label>
-                                    <input className='form-control' type="text" placeholder='XXXXXXXXXXXXXXX' value={uniqueNumber} onChange={(e) => setDocumentNumber(e.target.value)} />
+                                    <input className='form-control' type="text" placeholder='XXXXXXXXXXXXXXX' value={uniqueNumber} />
                                     <button className='generateCodeBtn btn btn-secondary' onClick={generateUniqueNumber}>Generate</button>
                                 </div>
                             </div>

@@ -75,7 +75,7 @@ const PrescriptionForm = ({ state }) => {
 
 
     const [date, setDate] = useState(new Date().toISOString().split('T')[0]);
-    const [documentNumber, setDocumentNumber] = useState('');
+    // const [documentNumber, setDocumentNumber] = useState('');
     const [diagnosis, setDiagnosis] = useState('');
     const [notes, setNotes] = useState('');
     const [prescriptionData, setPrescriptionData] = useState({
@@ -261,7 +261,7 @@ const PrescriptionForm = ({ state }) => {
                                     </div>
                                     <div>
                                         <label>Document Number:</label>
-                                        <input style={{ marginBottom: '0px' }} className='form-control' type="text" placeholder='XXXXXXXXXXXXXXX' value={uniqueNumber} onChange={(e) => setDocumentNumber(e.target.value)} />
+                                        <input style={{ marginBottom: '0px' }} className='form-control' type="text" placeholder='XXXXXXXXXXXXXXX' value={uniqueNumber} />
                                         <button className='generateCodeBtn btn btn-secondary' onClick={generateUniqueNumber}>Generate</button>
                                     </div>
                                 </div>

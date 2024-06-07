@@ -6,7 +6,7 @@ const DocFilter = ({ dataArray, inputNumber }) => {
     const [filteredData, setFilteredData] = useState([]);
     const [countData, setCountData] = useState({});
     const [loading, setLoading] = useState(true); // New loading state
-    const [messaage, setMessage] = useState(''); // New loading state
+    // const [messaage, setMessage] = useState(''); // New loading state
 
     useEffect(() => {
         // Use reduce to count occurrences of each value in the second element (index 1)
@@ -59,11 +59,11 @@ const DocFilter = ({ dataArray, inputNumber }) => {
                         aria-label="Loading Spinner"
                         data-testid="loader"
                     />
-                    <p style={{
+                    {/* <p style={{
                         color: '#000000',
                         textAlign: 'center',
                         marginTop: '5px'
-                    }}>{messaage}</p>
+                    }}>{messaage}</p> */}
                 </div>
             ) : (
                 <>
@@ -72,11 +72,11 @@ const DocFilter = ({ dataArray, inputNumber }) => {
                             <h1>Dashboard</h1>
                             <ul className="breadcrumb">
                                 <li>
-                                    <a href="#">Dashboard</a>
+                                    <a href="/#">Dashboard</a>
                                 </li>
                                 <li><i className='bx bx-chevron-right' ></i></li>
                                 <li>
-                                    <a className="active" href="#">Home</a>
+                                    <a className="active" href="/#">Home</a>
                                 </li>
                             </ul>
                         </div>

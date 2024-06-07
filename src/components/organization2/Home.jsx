@@ -10,10 +10,10 @@ const Home = () => {
                     <div className="h_leftside">
                         <h3>MakeSure</h3>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Insurance</a></li>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Get Helps</a></li>
+                            <li><a href="/#">Home</a></li>
+                            <li><a href="/#">Insurance</a></li>
+                            <li><a href="/#">About us</a></li>
+                            <li><a href="/#">Get Helps</a></li>
                         </ul>
                     </div>
                     <i className="fa-solid fa-bars"></i>
@@ -304,23 +304,23 @@ const Home = () => {
 
                     <div className="column second">
                         <h5>Company</h5>
-                        <a href="">About Us</a>
-                        <a href="">Product</a>
-                        <a href="">Testimonial</a>
+                        <a href="/#">About Us</a>
+                        <a href="/#">Product</a>
+                        <a href="/#">Testimonial</a>
                     </div>
 
                     <div className="column second">
                         <h5>Support</h5>
-                        <a href="">FAQ</a>
-                        <a href="">Privacy Policy</a>
-                        <a href="">Terms of Service</a>
+                        <a href="/#">FAQ</a>
+                        <a href="/#">Privacy Policy</a>
+                        <a href="/#">Terms of Service</a>
                     </div>
 
                     <div className="column second">
                         <h5>Our Works</h5>
-                        <a href="">Pricing</a>
-                        <a href="">Clients</a>
-                        <a href="">Products</a>
+                        <a href="/#">Pricing</a>
+                        <a href="/#">Clients</a>
+                        <a href="/#">Products</a>
                     </div>
 
                     <div className="column social">
